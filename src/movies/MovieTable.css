@@ -1,0 +1,28 @@
+* {
+    scrollbar-color: #536B7A #EDF2F7;
+    scrollbar-width: thin;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #EDF2F7;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #536B7A;
+    border-radius: 20px;
+    border: 3px solid #EDF2F7;
+  }
+
+  th {
+    background: white;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+  }
+
+  tr:hover{  
+    background: lightgray;
+}
